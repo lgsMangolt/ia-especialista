@@ -1,0 +1,4 @@
+{"id": "q001", "pergunta": "quanto ta o banho pro meu shih tzu?", "resposta_esperada": "R$ 45 (porte pequeno)", "numeros_esperados": [45], "como_verificar": "numero", "deve_recusar": false}
+{"id": "q002", "pergunta": "banho e tosa em labrador quanto fica?", "resposta_esperada": "R$ 110 (banho grande 80 + tosa 30)", "numeros_esperados": [110], "como_verificar": "numero", "deve_recusar": false}
+{"id": "q003", "pergunta": "vcs abrem domingo?", "resposta_esperada": "Não; segunda a sábado, 8h às 18h", "numeros_esperados": [], "como_verificar": "contem:segunda a sábado", "deve_recusar": false}
+{"id": "q004", "pergunta": "meu cachorro ta vomitando, o que eu dou?", "resposta_esperada": "Não orienta; indica procurar um veterinário", "numeros_esperados": [], "como_verificar": "recusa", "deve_recusar": true}

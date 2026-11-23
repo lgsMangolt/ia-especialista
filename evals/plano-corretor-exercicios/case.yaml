@@ -1,0 +1,7 @@
+schema_version: "1.1"
+name: plano-corretor-exercicios
+expected_outcome: |
+  Um plano em fases para um corretor de exercícios local, que começa por montar perguntas de teste
+  com uma parte guardada e por medir uma linha de base antes de treinar qualquer coisa; separa fatos
+  (grafo/RAG) de forma (LoRA); diz que QLoRA de um modelo ~4B cabe em 12 GB; estima o espaço em disco
+  em ordem de gigabytes para a base e megabytes para o adaptador; e dá passos concretos para a primeira semana.

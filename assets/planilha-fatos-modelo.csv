@@ -1,0 +1,7 @@
+item,valor,unidade,condicao,vigente_desde,vigente_ate,fonte,responsavel
+Banho porte pequeno,45,R$,,2026-01-01,,tabela do balcão,dono(a)
+Banho porte médio,60,R$,,2026-01-01,,tabela do balcão,dono(a)
+Banho porte grande,80,R$,,2026-01-01,,tabela do balcão,dono(a)
+Tosa (adicional),30,R$,somado ao banho,2026-01-01,,tabela do balcão,dono(a)
+Horário de funcionamento,08:00-18:00,horário,segunda a sábado,2026-01-01,,regra da loja,dono(a)
+Leva e traz,15,R$,até 3 km,2026-01-01,,regra da loja,dono(a)

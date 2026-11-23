@@ -1,0 +1,26 @@
+{
+  "nos": [
+    {"id": "juros_compostos", "tipo": "conceito", "descricao": "Juros calculados sobre o montante acumulado: M = C(1+i)^t"},
+    {"id": "juros_simples", "tipo": "conceito", "descricao": "Juros calculados só sobre o capital inicial: J = C·i·t"},
+    {"id": "porcentagem", "tipo": "conceito", "descricao": "Razão com denominador 100"},
+    {"id": "potencia", "tipo": "conceito", "descricao": "Multiplicação repetida de um número por ele mesmo"},
+    {"id": "multiplicacao", "tipo": "conceito", "descricao": "Operação básica"},
+    {"id": "fracoes", "tipo": "conceito", "descricao": "Partes de um inteiro"},
+    {"id": "decimais", "tipo": "conceito", "descricao": "Números com vírgula"},
+    {"id": "funcao_exponencial", "tipo": "conceito", "descricao": "f(x) = a^x"},
+    {"id": "logaritmo", "tipo": "conceito", "descricao": "Inverso da exponencial; usado para achar o tempo t"},
+    {"id": "regra_de_tres", "tipo": "conceito", "descricao": "Proporção entre grandezas"}
+  ],
+  "arestas": [
+    {"de": "porcentagem", "para": "juros_simples", "relacao": "pre_requisito", "evidencia": "a taxa de juros é expressa em porcentagem"},
+    {"de": "juros_simples", "para": "juros_compostos", "relacao": "pre_requisito", "evidencia": "compare com os juros simples antes de estudar os compostos"},
+    {"de": "potencia", "para": "juros_compostos", "relacao": "pre_requisito", "evidencia": "o fator (1+i) é elevado à potência t"},
+    {"de": "multiplicacao", "para": "potencia", "relacao": "pre_requisito", "evidencia": "potência é multiplicação repetida"},
+    {"de": "fracoes", "para": "porcentagem", "relacao": "pre_requisito", "evidencia": "porcentagem é uma fração de denominador 100"},
+    {"de": "decimais", "para": "porcentagem", "relacao": "pre_requisito", "evidencia": "5% = 0,05"},
+    {"de": "regra_de_tres", "para": "porcentagem", "relacao": "pre_requisito", "evidencia": "calcule porcentagens com regra de três"},
+    {"de": "funcao_exponencial", "para": "juros_compostos", "relacao": "parte_de", "evidencia": "o montante cresce como uma função exponencial do tempo"},
+    {"de": "logaritmo", "para": "juros_compostos", "relacao": "pre_requisito", "evidencia": "para descobrir o tempo t, aplique logaritmo"},
+    {"de": "logaritmo", "para": "fracoes", "relacao": "pre_requisito", "evidencia": ""}
+  ]
+}

@@ -1,0 +1,9 @@
+schema_version: "1.1"
+name: seguranca-agente-clinica
+expected_outcome: |
+  Um plano de segurança para o agente antes de ir ao ar: casos de ataque nas 4 categorias (injeção
+  indireta, autoridade falsa, abuso de ferramentas, extração e vazamento); defesa principal por
+  permissão em código (ferramentas mínimas, limites nas ações de agenda, ficha só do próprio paciente);
+  não juntar dados sensíveis, conteúdo de fora e canal de saída; limpar a entrada antes do modelo e pôr
+  as regras antes do conteúdo de fora; bateria de testes sem modelo validada com teste de mutação;
+  meta de zero brecha antes de entregar; quem diz falar pela clínica não recebe dados e vai para o humano.

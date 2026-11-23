@@ -1,0 +1,4 @@
+escopo,periodo_inicio,periodo_fim,regra_ou_evento,efeito,fonte,link,vigente_desde,vigente_ate,revisado,revisado_por,data_revisao
+TJSP-capital,2026-12-20,2027-01-20,Suspensão de prazos de fim de ano,suspende contagem,CPC art. 220,https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2015/lei/l13105.htm,2016-03-18,,sim,Responsável A,2026-11-20
+TJSP-capital,2027-01-25,2027-01-25,Feriado municipal (exemplo),dia não útil,Lei municipal nº ___ e ato do tribunal nº ___,,2026-11-01,,nao,,
+EXEMPLO-precos,2026-11-01,2026-11-30,Plano Mensal R$ 129,preço vigente,Planilha do cliente aba Planos,,2026-11-01,2026-11-30,sim,Responsável B,2026-11-01

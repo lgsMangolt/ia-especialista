@@ -1,0 +1,7 @@
+schema_version: "1.1"
+name: escolha-lora-vs-grafo
+expected_outcome: |
+  A resposta separa os dois problemas: preço e especificação são fatos que mudam e devem vir de uma
+  fonte consultada (catálogo/RAG/grafo/ferramenta), não de um LoRA; o formato bagunçado é problema de
+  forma, a ser resolvido primeiro com prompt/exemplos e, se preciso, LoRA. Recomenda medir com perguntas
+  de teste antes e depois.

@@ -1,0 +1,11 @@
+.env
+.env.*
+*.key
+*.pem
+__pycache__/
+*.pyc
+outputs/
+*-workspace/
+evals/results/
+.DS_Store
+Thumbs.db
