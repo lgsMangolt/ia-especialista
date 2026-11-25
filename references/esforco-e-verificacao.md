@@ -46,6 +46,8 @@ O mesmo padrão vale fora da matemática, sempre que existir um verificador exat
 
 Registre quantas tentativas cada pergunta precisou: muitas tentativas no mesmo tipo de pergunta apontam onde mexer no ciclo de melhoria (fato faltando, regra mal explicada no prompt).
 
+**O verificador precisa ser pequeno e legível por uma pessoa.** Verificado não é o mesmo que entendido: se o conferidor for tão grande e opaco quanto o modelo, ninguém consegue auditar por que ele aprovou, e o erro dele passa junto. Prefira uma regra por linha (tabela consultada, soma, data, esquema), com teste próprio, e que o dono do negócio consiga ler. Exemplo extremo: em novembro de 2026 foi **anunciada** uma prova da Hipótese de Riemann gerada com IA e checada no Lean, com mais de 17 milhões de linhas; ela roda no verificador, mas ainda não foi entendida nem revisada por especialistas.
+
 ## 3. Calcular direto nos pesos
 
 O Weight-Space Programming (MIT CSAIL, novembro de 2026) está em `edicao-de-pesos.md`: experimental, sem revisão por pares, só para defeitos de comportamento.
@@ -53,6 +55,8 @@ O Weight-Space Programming (MIT CSAIL, novembro de 2026) está em `edicao-de-pes
 ## Confiança
 
 Os números de LEAP e AlphaProof Nexus são dos próprios autores e não foram verificados por terceiros. Alguns identificadores e datas do arXiv encontrados na busca pareceram incomuns: confira o original antes de citar a um usuário.
+
+**Anúncio não é fato.** Resultado anunciado e ainda sem revisão (como a prova de Riemann acima, ou a edição de pesos do MIT) entra como "anunciado", nunca como confirmado. É a mesma regra que o agente segue com os fatos do negócio: sem fonte revisada, não vira verdade.
 
 Fontes:
 - ICLR 2025 — Scaling LLM Test-Time Compute Optimally: https://iclr.cc/virtual/2025/oral/31924
