@@ -11,6 +11,19 @@ Gratuita e de código aberto ([MIT](LICENSE)).
 
 ![Visão geral da skill: objetivo, como ela monta o agente, como o agente responde e exemplos de cálculo](docs/visao-geral.jpg)
 
+## Veja em 24 segundos
+
+<p align="center">
+  <a href="docs/video-calculo-em-vertice.mp4">
+    <img src="docs/video-previa.gif" width="320" alt="Prévia do vídeo: a curva da Hipótese de Riemann girando, a escada dos primos e o cálculo em vértice com ligações em degraus">
+  </a>
+</p>
+
+<p align="center"><a href="docs/video-calculo-em-vertice.mp4"><b>▶ Assistir ao vídeo com som (MP4)</b></a><br>
+Hipótese de Riemann → escada dos primos → cálculo em vértice → como a skill responde</p>
+
+A curva é ζ(½ + it) calculada de verdade, e os números do grafo são os do exemplo abaixo. A prova da Hipótese de Riemann com IA aparece como **anunciada** (novembro de 2026), ainda em verificação.
+
 ---
 
 ## Por que usar
@@ -95,7 +108,7 @@ Depois, no Claude Code, comece o pedido com `/ia-especialista`. Por exemplo:
 | `assets/` | Modelos para copiar: planilha de fatos, perguntas de teste, verificador de preços, script de avaliação, tabela de cobertura |
 | `scripts/` | `ppr.py` (PageRank personalizado e bloco de evidências), `lora_size.py` (tamanho de um LoRA), `teste_acionamento.py` (mede se a skill é acionada nos pedidos certos) |
 | `evals/` | Casos de teste da própria skill, no formato do `claude plugin eval` |
-| `docs/` | As imagens deste README |
+| `docs/` | As imagens e o vídeo deste README |
 
 Os scripts usam só a biblioteca padrão do Python.
 
