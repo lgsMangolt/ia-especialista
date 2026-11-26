@@ -15,14 +15,14 @@ Gratuita e de código aberto ([MIT](LICENSE)).
 
 <p align="center">
   <a href="docs/video-calculo-em-vertice.mp4">
-    <img src="docs/video-previa.gif" width="320" alt="Prévia do vídeo: a curva da Hipótese de Riemann girando, a escada dos primos e o cálculo em vértice com ligações em degraus">
+    <img src="docs/video-previa.gif" width="320" alt="Prévia do vídeo: a curva da Hipótese de Riemann girando, o bot barrando um preço errado e o cálculo em vértice com ligações em degraus">
   </a>
 </p>
 
 <p align="center"><a href="docs/video-calculo-em-vertice.mp4"><b>▶ Assistir ao vídeo com som (MP4)</b></a><br>
-Hipótese de Riemann → escada dos primos → cálculo em vértice → como a skill responde</p>
+A IA propõe, algo exato confere: da prova de Riemann ao nosso bot → cálculo em vértice → como a skill responde</p>
 
-A curva é ζ(½ + it) calculada de verdade, e os números do grafo são os do exemplo abaixo. A prova da Hipótese de Riemann com IA aparece como **anunciada** (novembro de 2026), ainda em verificação.
+A ligação com a skill é o padrão, não a matemática: na prova anunciada da Hipótese de Riemann (novembro de 2026, ainda em verificação) a IA propôs os passos e o Lean conferiu cada um; no bot, a IA escreve a resposta e o código confere o preço antes de enviar. A curva é ζ(½ + it) calculada de verdade, e os números do grafo são os do exemplo abaixo. As ligações em degraus são só estilo visual.
 
 ---
 
